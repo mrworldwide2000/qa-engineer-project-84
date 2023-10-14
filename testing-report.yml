@@ -1,0 +1,15 @@
+---
+- summary: Переключение языка на русский
+  status: pass
+
+- summary: Проверка сортировки товаров по бренду
+  status: pass
+  
+  - summary: Проверка мобильной версии
+  status: fail
+
+- summary: Проверка добавления товара в корзину
+  status: pass
+  
+  - summary: Переключение языка на русский
+  status: fail
