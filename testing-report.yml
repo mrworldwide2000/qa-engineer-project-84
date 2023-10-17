@@ -13,3 +13,9 @@
 
 - summary: Проверка работы сайта без загрузок и обновлений страниц при переходе по ссылкам и формам
   status: pass
+
+- summary: Проверка сайта на совместимость с браузером Microsoft Edge
+  status: pass
+
+- summary: Проверка сайта на совместимость с браузером Firefox Browser
+  status: pass
