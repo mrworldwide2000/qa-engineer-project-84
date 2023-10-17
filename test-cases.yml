@@ -50,4 +50,26 @@
     - Переходим во вкладку "Cart"
     - Переходим во вкладку "Store"
     expected-result: Страницы "Cart" и "Store" откроются без обновлений и загрузок новой страницы
+
+- summary: Проверка сайта на совместимость с браузером Microsoft Edge
+  requirement: Сайт должен быть протестирован на совместимость с последними версиями браузеров
+  environment: 
+  - Microsoft Edge Версия 117.0.2045.60 (64-разрядная версия)
+  prerequisites: 
+    - Открыт сайт https://hexlet-products-store.vercel.app/
+  steps:
+    - Открыть страницу с товарами
+    - Открыть страницу с корзиной
+    expected-result: Сайт должен быть совместим с последней версией Microsoft Edge
+
+- summary: Проверка сайта на совместимость с браузером Firefox Browser
+  requirement: Сайт должен быть протестирован на совместимость с последними версиями браузеров
+  environment: 
+  - Firefox Browser 118.0.2 (64-разрядный)
+  prerequisites: 
+    - Открыт сайт https://hexlet-products-store.vercel.app/
+  steps:
+    - Открыть страницу с товарами
+    - Открыть страницу с корзиной
+    expected-result: Сайт должен быть совместим с последней версией Firefox Browser
    
