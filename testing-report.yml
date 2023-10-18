@@ -19,3 +19,6 @@
 
 - summary: Проверка сайта на совместимость с браузером Firefox Browser
   status: pass
+
+- summary: Проверка сайта на удобство просмотра товаров
+  status: fail
