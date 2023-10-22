@@ -21,6 +21,12 @@ test-cases:
   - summary: Проверка хранения данных о корзине в сессии браузера
     status: fail
 
+  - summary: Проверка сортировки товаров по бренду
+    status: pass
+
+  - summary: Проверка добавления товара в корзину
+    status: pass
+
 bugreports:
   - summary: Проверка поиска товаров по бренду
     environment: 
