@@ -18,6 +18,9 @@ test-cases:
   - summary: Проверка сайта на удобство просмотра товаров
     status: fail
 
+  - summary: Проверка хранения данных о корзине в сессии браузера
+    status: fail
+
 bugreports:
   - summary: Проверка поиска товаров по бренду
     environment: 
