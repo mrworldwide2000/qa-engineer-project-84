@@ -27,6 +27,9 @@ test-cases:
   - summary: Проверка добавления товара в корзину
     status: pass
 
+  - summary: Проверка оформления заказа с переходом на страницу оплаты
+    status: fail
+
 bugreports:
   - summary: Проверка поиска товаров по бренду
     environment: 
