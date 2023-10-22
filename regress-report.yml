@@ -37,4 +37,4 @@ bugreports:
   - Перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
   - Задать фильтр по бренду "Lord - Al-Rehab"
     expected-result: Карточка товара "Eau De Perfume Spray" корректно отобразится
-    actual-result: Карточка товара "Eau De Perfume Spray" отображается некорректно, кнопки выезжают за границы карточки товара
+    actual-result: Когда под фильтры подходит лишь один товар, его карточка на странице отображается некорректно
