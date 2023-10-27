@@ -21,7 +21,10 @@
   test-data: no data
   prerequisites: Сайт открыт на мобильном устройстве
   steps:
-    - Переходим по ссылке https://hexlet-products-store.vercel.app/
+    - Открыть интернет-магазин
+    - Открыть devtools
+    - Включить режим эмуляции устройства
+    - Выбрать Iphone 12 Pro
   expected-result: Сайт должен открыться в мобильной версии
     
 - summary: Проверка добавления товара в корзину
